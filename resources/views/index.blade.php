@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
     <title>El'Vania: Bakery. Pastry. Chef</title>
+    <link rel="stylesheet" href="{{secure_asset('/css/app.css')}}"
 </head>
 <body>
     <h2>About Me</h2>
