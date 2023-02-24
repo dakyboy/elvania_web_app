@@ -6,6 +6,9 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     font-size: 62.5%;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 0 10%;
 }
 
 body {
@@ -16,4 +19,12 @@ body {
     margin: 0vh auto;
     background-color: #1A4314;
     color: #ffffff;
+}
+
+#title {
+    margin: 0 auto;
+}
+
+.about_me_word {
+    width: 52%;
 }
