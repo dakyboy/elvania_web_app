@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/about_me', function () {
-    return '<x-nav.navbar />';
+Route::get('/about_us', function () {
+    return '<h1>About Me </h1>';
+});
+
+Route::get('/shop', function () {
+    return '<h1>Shop </h1>';
 });

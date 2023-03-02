@@ -8,12 +8,11 @@ html {
     font-size: 62.5%;
     min-width: 90%;
     margin: 0 auto;
-    padding: 0 10%;
+    
 }
 
 body {
     font-size: 1.6rem;
-    width: 100%;
     height: 100vh;
     min-width: 150px;
     margin: 0vh auto;
@@ -24,11 +23,37 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
+    padding: 0 10%;
 }
 
+.app-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navbar p {
+    color: #ffffff;
+    padding: calc(1rem + 0.9vh) 2vw;
+}
+
+.navbar a:hover {
+    color: #59981A;
+
+}
+
+
 #title {
-    text-align: center;
-    flex-basis: 100%;
+    text-align: left;
+    flex-basis: 75;
 }
 
 .about_me_container {
@@ -36,7 +61,7 @@ body {
 }
 
 .about_me_word {
-   min-width: 72%;
+    min-width: 72%;
 }
 
 .products_container {
