@@ -10,14 +10,12 @@
 <body>
     <div class="container">
         <h1 id="title">Elvania</h1>
-        <h2>About Me</h2>
-        <x-nav.navbar />
-        <x-content.about_me>
-            <x-slot:title>
-                <h1>Juice</h1>
-            </x-slot:title>
-            <strong>Whoops!</strong> Something went wrong!
-        </x-content.about_me>
+        <div class="about_me_container">
+            <h2>About Me</h2>
+            <x-content.about_me />
+        </div>
+        <div class="products_container">
+        </div>
     </div>
 </body>
 

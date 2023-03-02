@@ -6,7 +6,7 @@ html {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
     font-size: 62.5%;
-    max-width: 90%;
+    min-width: 90%;
     margin: 0 auto;
     padding: 0 10%;
 }
@@ -21,10 +21,25 @@ body {
     color: #ffffff;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 #title {
-    margin: 0 auto;
+    text-align: center;
+    flex-basis: 100%;
+}
+
+.about_me_container {
+    flex-basis: 50%;
 }
 
 .about_me_word {
-    width: 52%;
+   min-width: 72%;
+}
+
+.products_container {
+    flex-basis: 100%;
+    flex-wrap: nowrap;
 }
