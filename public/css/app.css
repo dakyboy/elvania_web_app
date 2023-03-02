@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    font-size: 62.5%;
+    min-width: 90%;
+    margin: 0 auto;
+    
+}
+
+body {
+    font-size: 1.6rem;
+    height: 100vh;
+    min-width: 150px;
+    margin: 0vh auto;
+    background-color: #1A4314;
+    color: #ffffff;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10%;
+}
+
+.app-bar {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 0 2%;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.navbar p {
+    color: #ffffff;
+    padding: calc(1rem + 0.9vh) 2vw;
+}
+
+.navbar a:hover {
+    color: #59981A;
+
+}
+
+
+#title {
+    text-align: left;
+    flex-basis: 75;
+}
+
+.about_me_container {
+    flex-basis: 50%;
+}
+
+.about_me_word {
+    min-width: 72%;
+}
+
+.products_container {
+    flex-basis: 100%;
+    flex-wrap: nowrap;
+}
