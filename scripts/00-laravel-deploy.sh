@@ -2,8 +2,6 @@
 echo "Running composer"
 composer install --no-dev --working-dir=/var/www/html
 
-echo "Generating application key"
-php artisan key:generate
 
 #php artisan env:set app_name "Example App"
 
